@@ -7,15 +7,24 @@
  ![Image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Google%20Cloud.png)
 
  # Image of Honeypot Sensors
+  - Creation of Dionaea Honeypot
+  - A honeypot is an intentionally exposed and compromised server to trap hackers.
+  - A honeypot can be used to observe what kind of payloads hackers are using.
  ![Image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/MHN%20Server.png)
 
  # Nmap Attack
   - I opted to use Nmap form my host operating system to scan the honeypot. The right corner of the Nmap gif shows the ammount of attacks launched on the honeypot.
   - You can see below the attacks report which shows attacks from various IPs and countries.
   - The session.json file can be viewed in this repository.
+  - MHN admin uses mongodb to store files
  ![Image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/honeyAttack.gif)
 
 
  ![Image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Attack%20Report.png)
  
- 
+ ![Attack Report 2](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Attack%20report%202.png)
+
+ # Requirements
+ - [x] MHN Admin 
+ - [x] Dionaea Honeypot
+ - [x] Session.json
