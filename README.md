@@ -23,8 +23,21 @@
  ![Image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Attack%20Report.png)
  
  ![Attack Report 2](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Attack%20report%202.png)
+ 
+ 
+ # Malware Analysis 
+ 
+  - I looked at the payloads captured by the honeypot.
+  - I copied the hashes and searched the virus total for a report on the malware.
+  - The report gave a cve and showed that many antiviruses flag the malware as a trojan.
+  - I beleive that one of the payloads is the wannacry trojan.
+ 
+ ![image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Malware%20Analysis.png)
+ 
+ ![image](https://github.com/redbeard-sys/Honeypotweek11/blob/main/Malware%202.png)
 
  # Requirements
  - [x] MHN Admin 
  - [x] Dionaea Honeypot
  - [x] Session.json
+ - [x] Malware Analysis
